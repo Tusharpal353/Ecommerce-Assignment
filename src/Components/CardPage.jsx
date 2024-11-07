@@ -25,7 +25,7 @@ export default function CardPage() {
   return (
     <div className="min-h-screen bg-gray-100">
       <Header />
-      <main className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8">
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           <div className="flex flex-col items-center">
             <div className="w-full h-96 overflow-hidden">
@@ -53,7 +53,7 @@ export default function CardPage() {
             </div>
           </div>
         </div>
-      </main>
+      </div>
     </div>
   )
 }
