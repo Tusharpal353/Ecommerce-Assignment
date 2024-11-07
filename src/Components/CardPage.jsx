@@ -37,8 +37,8 @@ export default function CardPage() {
             </div>
             <div className="p-8 w-full max-w-2xl">
               <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
-                {product.category}
-              </div>
+                {product.rating +"⭐"}
+              </div> 
               <h1 className="mt-2 text-3xl font-bold text-gray-900">
                 {product.title}
               </h1>
